@@ -1,3 +1,18 @@
+# Custom files
+unused/
+TODO.md
+paper-text.txt
+
+docs/
+.env
+.deepeval/
+__pycache__/
+unused/
+TODO.md
+response_cache.json
+*.egg-info
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

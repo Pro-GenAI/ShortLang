@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "short_lang"
+version = "0.1.0"
+description = "A framework for text compression using rule-based and LLM-based methods."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "deepeval",
+    "fastapi",
+    "numpy",
+    "openai",
+    "pydantic",
+    "python-dotenv",
+    "scikit-learn",
+    "sentence-transformers",
+    "uvicorn",
+]
